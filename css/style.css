@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.chess {
+  width: 400px;
+  height: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 100px;
+}
+
+.chess-img {
+  width: 20px;
+  height: auto;
+}
+
+.chess-img.second {
+  fill: #f00;
+}
+
+.chess-col {
+  width: 50px;
+  height: 50px;
+  border: 1px solid #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.chess-col-dark {
+  background-color: #196864;
+}
+
+.chess-row {
+  display: flex;
+}
+
